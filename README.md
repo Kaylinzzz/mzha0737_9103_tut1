@@ -42,7 +42,7 @@ The technique I find most inspiring is **Perlin Noise Flow Fields** — a genera
 
 **Description:**
 
-The `noise()` function in p5.js returns smooth, continuous pseudo-random values — unlike `random()`, adjacent values are related, producing natural curves. By mapping noise output to an angle at each grid cell, we create a vector field. Particles sample the angle at their current position and move accordingly. Each frame, the noise offset shifts slightly, making the field evolve over time. This technique is easy to implement with p5.js primitives (`createVector`, `noise`, `line`, `ellipse`) and produces stunning generative visuals. It directly supports the flowing, organic aesthetic from Part 1.
+The noise() function in p5.js generates smooth, naturally flowing values — unlike random(), which jumps unpredictably. By feeding each particle's position into noise(), we get a direction angle that feels organic and fluid. Particles then move along these angles, tracing beautiful curving paths across the canvas. As a small time offset is added each frame, the entire field slowly shifts and evolves, creating a living, breathing animation. This directly supports the flow field aesthetic from Part 1 — smooth, hypnotic motion emerging from a simple mathematical rule.
 
 ---
 
