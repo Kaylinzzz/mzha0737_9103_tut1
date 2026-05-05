@@ -62,7 +62,7 @@ This coding technique utilizes **JavaScript arrays** to track velocity and densi
 - **Live Example:** [Web-based Interactive Fluid Simulation – High-fidelity real-time fluid interaction](https://paveldogreat.github.io/WebGL-Fluid-Simulation/)
 - **Technical Tutorial:** [The Coding Train – Coding Challenge #132: Fluid Simulation in p5.js](https://thecodingtrain.com/challenges/132-fluid-simulation)
 - **GitHub Example Code:** [Fluid-JS: WebGL Fluid Simulation](https://github.com/malik-tillman/Fluid-JS.git)
-- **Documentation:** [p5.js Official Reference - Using beginShape() for flow visualization](https://p5js.org/reference/p5/beginShape/)
+- **Documentation:** [MDN Web Docs - Using Typed Arrays for high-performance numerical data](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Typed_arrays)
 
 ---
 *Quiz 8 – [Kaylin] – [mzha0737]*
