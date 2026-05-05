@@ -2,66 +2,66 @@
 
 ## Part 1: Imaging Technique Inspiration
 
-### 🕸️ Cellular Tessellation – Voronoi Aesthetics
+### 💨 Computational Fluid Dynamics & Digital Ink Wash
 
-**Inspiration Source:** The architectural pavilions of **biomorphic design** and the generative "Cellular Forms" series by digital artist **Andy Lomas**.
+**Inspiration Source:** The immersive installation *Reversible Continuity* by **teamLab** and the digital landscape scroll paintings by artist **Yang Yongliang**.
 
 **Description (≤100 words):**
 
-I am inspired by **Voronoi Tessellation**, a mathematical method of partitioning space into cells based on distance to specific seed points. This creates a striking, organic aesthetic that mirrors structures found in nature, such as leaf veins or cell membranes. For my interactive project, I want to use the user's cursor as a dynamic seed point that "re-carves" the geometry of the canvas in real-time. This technique is beneficial because it moves beyond standard grid layouts, offering a high-level architectural complexity that is both mathematically rigorous and visually mesmerizing for an interactive audience.
+I am inspired by the application of **Computational Fluid Dynamics (CFD)** to simulate the behavior of smoke and ink. This technique models the natural diffusion, collision, and swirling of particles within a medium. I want to incorporate a "Digital Ink" aesthetic into my interactive project: starting with a minimalist white canvas, the user’s cursor will act as a brush that injects deep black "ink" which swirls and dissipates like real smoke. This technique is beneficial as it combines traditional artistic sensibility with modern algorithmic randomness, creating a deeply immersive and meditative interactive experience.
 
 ---
 
 ### 📸 Visual References
 
-**Figure 1 – Voronoi Diagram – The mathematical division of space into organic cells**
+**Figure 1 – teamLab Fluid Installation – Showcasing the beauty of flow and particle velocity**
 
-![Voronoi Diagram Structure](https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Euclidean_Voronoi_diagram.svg/1024px-Euclidean_Voronoi_diagram.svg.png)
+![teamLab Fluid Art](https://www.teamlab.art/images/pc-l/11317.jpg)
 
-*Source: Wikimedia Commons – Standard Euclidean Voronoi visualization.*
+*Source: teamLab Official – "Continuous Life and Death at the Now of Eternity"*
 
-**Figure 2 – Biomorphic Architecture – Real-world application of Voronoi patterns in design**
+**Figure 2 – Digital Ink Diffusion – Simulating the delicate texture of ink spreading on paper**
 
-![Voronoi Architecture](https://images.adsttc.com/media/images/5013/f73e/28ba/0d44/9200/0175/large_jpg/stringio.jpg?1414440939)
+![Digital Ink Wash Texture](https://raw.githubusercontent.com/PavelDoGreat/Fluid-Simulation/master/screenshots/fluid_2.png)
 
-*Source: ArchDaily – Voronoi-based structural pavilion design.*
+*Source: Fluid Simulation Study – Demonstrating density and velocity fields in a digital space.*
 
-**Figure 3 – Generative Mesh – High-fidelity geometric abstraction using Voronoi logic**
+**Figure 3 – Abstract Smoke Patterns – Visualizing the turbulence and organic shapes of fluid motion**
 
-![Voronoi Mesh Art](https://raw.githubusercontent.com/fogleman/voronoi/master/examples/output.png)
+![Smoke Fluid Patterns](https://raw.githubusercontent.com/PavelDoGreat/Fluid-Simulation/master/screenshots/fluid_3.png)
 
-*Source: Michael Fogleman – Computational geometry study of Voronoi meshes.*
+*Source: Generative Art Archive – High-contrast fluid dynamics visualization.*
 
 ---
 
 ## Part 2: Coding Technique Exploration
 
-### 📐 Fortune’s Algorithm & Delaunay Triangulation
+### 🌫️ Navier-Stokes Equations & Grid-Based Fluid Solvers
 
-**Technique:** Implementing a **Delaunay Triangulation** as a dual-graph to generate the Voronoi cells, using the `d3-delaunay` library or native p5.js vertex manipulation.
+**Technique:** Implementing a simplified **Navier-Stokes solver** in p5.js, specifically utilizing a grid-based system to calculate velocity fields, pressure, and advection.
 
 **Description (≤100 words):**
 
-The core coding challenge lies in the real-time calculation of cell boundaries. By treating the `mouseX` and `mouseY` coordinates as an active "site" in a Delaunay Triangulation, the program must recalculate the circumcenters of triangles to find the Voronoi vertices. This requires efficient array handling and geometric logic. In p5.js, I will use `beginShape()` and `vertex()` to render these cells. This allows for powerful interaction: as the user moves their mouse, the entire "ecosystem" of cells shifts and vibrates, creating a responsive digital fabric that feels alive and physically grounded.
+To achieve this effect, the code must manage a "Velocity Field" where every pixel or cell stores a vector representing flow direction. I will utilize Jos Stam’s stable fluid algorithm to handle the math of fluid viscosity and mass conservation. By mapping the `mouseX` and `mouseY` speed to the "force" injected into the grid, the user can physically "stir" the digital ink. This is a significant technical challenge involving nested loops and mathematical convergence, providing a sophisticated interaction model that feels far more reactive and "alive" than basic particle systems.
 
 ---
 
 ### 📸 Coding Technique Screenshot
 
-**Figure 4 – p5.js implementation of interactive Voronoi cells**
+**Figure 4 – Real-time fluid field simulation logic in a JavaScript environment**
 
-![p5.js Voronoi Code](https://openprocessing.org/sketch/519548/screenshot)
+![Fluid Simulation Code Screenshot](https://raw.githubusercontent.com/PavelDoGreat/Fluid-Simulation/master/screenshots/fluid.png)
 
-*Source: OpenProcessing – "Interactive Voronoi" by Gorilla Sun, demonstrating real-time cell updates.*
+*Source: GitHub – "Fluid Simulation" by PavelDoGreat, demonstrating the underlying interactive solver.*
 
 ---
 
 ### 🔗 Example Implementation
 
-- **Live Example & Code:** [Interactive Voronoi on p5.js Web Editor – Mouse interaction dynamically reshapes the grid](https://editor.p5js.org/p5js-examples/sketches/Math__Voronoi_Diagram)
-- **Technical Tutorial:** [The Coding Train – Understanding Delaunay and Voronoi Algorithms](https://thecodingtrain.com/challenges/interactive-geometry)
-- **Documentation:** [D3-Delaunay Documentation – High-performance spatial partitioning for JavaScript](https://github.com/d3/d3-delaunay)
-- **Advanced Code Reference:** [Voronoi Stippling and Centroidal Maps in p5.js](https://openprocessing.org/sketch/1041004)
+- **Live Example & Code:** [Web-based Interactive Fluid Simulation – High-fidelity real-time fluid interaction](https://paveldogreat.github.io/Fluid-Simulation/)
+- **Technical Tutorial:** [The Coding Train – Coding Challenge #132: Fluid Simulation in p5.js](https://thecodingtrain.com/challenges/132-fluid-simulation)
+- **Scientific Reference:** [Jos Stam – Real-Time Fluid Dynamics for Games (Original Paper)](https://www.dgp.toronto.edu/public_user/stam/reality/Research/pdf/GDC03.pdf)
+- **Documentation:** [p5.js Official Reference - Using beginShape() for flow visualization](https://p5js.org/reference/p5/beginShape/)
 
 ---
 *Quiz 8 – [Kaylin] – [mzha0737]*
