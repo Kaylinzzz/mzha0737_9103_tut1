@@ -2,21 +2,21 @@
 
 ## Part 1: Imaging Technique Inspiration
 
-### 💨 Computational Fluid Dynamics & Digital Ink Wash
+### Computational Fluid Dynamics & Digital Ink Wash
 
 **Inspiration Source:** The immersive installation *Reversible Continuity* by **teamLab** and the digital landscape scroll paintings by artist **Yang Yongliang**.
 
-**Description (≤100 words):**
+**Description:**
 
 I am inspired by the application of **Computational Fluid Dynamics (CFD)** to simulate the behavior of smoke and ink. This technique models the natural diffusion, collision, and swirling of particles within a medium. I want to incorporate a "Digital Ink" aesthetic into my interactive project: starting with a minimalist white canvas, the user’s cursor will act as a brush that injects deep black "ink" which swirls and dissipates like real smoke. This technique is beneficial as it combines traditional artistic sensibility with modern algorithmic randomness, creating a deeply immersive and meditative interactive experience.
 
 ---
 
-### 📸 Visual References
+### Visual References
 
 **Figure 1 – teamLab Fluid Installation – Showcasing the beauty of flow and particle velocity**
 
-![teamLab Fluid Art](https://www.teamlab.art/images/pc-l/11317.jpg)
+![teamLab Fluid Art](https://assets.team-lab.com/b5EBo9Uo-OK6SM09ZTkEZQ/TY9WsVVZdbE43d7DByoGRL/width=1920,quality=80)
 
 *Source: teamLab Official – "Continuous Life and Death at the Now of Eternity"*
 
