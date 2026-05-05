@@ -24,14 +24,14 @@ I am inspired by the reactive fluid motion and monochrome tonal density seen in 
 
 ![Digital landscape scroll paintings](https://assets.isu.pub/document-structure/210503014611-34d7ac1c4403dc4b0af76d39416f16bc/v1/d8c1b0e4f196915531365d2ff275f814.jpg?width=1440&quality=85%2C50)
 
-*Source: ChipGAN: A Generative Adversarial Network for Chinese Ink Wash Painting Style Transfer.*
+*Source: Yang Yongliang Studio – Yang Yongliang Hound, 2021 giclee print on fine art.*
+
 
 **Figure 3 – Computational ink wash painting**
 
 ![Computational_ink_wash_painting](https://github.com/Kaylinzzz/mzha0737_9103_tut1/blob/main/images/Computational_ink_wash_painting.png?raw=true)
 
-*Source: Yang Yongliang Studio – Yang Yongliang Hound, 2021 giclee print on fine art.*
-*Source: teamLab Official – "Continuous Life and Death at the Now of Eternity"*
+*Source: ChipGAN: A Generative Adversarial Network for Chinese Ink Wash Painting Style Transfer.*
 ---
 
 ## Part 2: Coding Technique Exploration
