@@ -2,66 +2,66 @@
 
 ## Part 1: Imaging Technique Inspiration
 
-### 🦢 Emergent Collective Motion – Boids Algorithm
+### 🕸️ Cellular Tessellation – Voronoi Aesthetics
 
-**Inspiration Source:** *Boids* by Craig Reynolds (1986) and the immersive digital installations of **Universal Everything**.
+**Inspiration Source:** The architectural pavilions of **biomorphic design** and the generative "Cellular Forms" series by digital artist **Andy Lomas**.
 
 **Description (≤100 words):**
 
-I am inspired by **Agent-Based Flocking (Boids)**, a technique that simulates the collective behavior of birds or fish. By applying three simple rules—Separation, Alignment, and Cohesion—thousands of individual "agents" create a fluid, organic mass that moves with startling lifelike complexity. For my interactive project, I want to treat the user's cursor as a "predator" or an "attractor," forcing the flock to scatter or coalesce dynamically. This technique is artistically superior to static animation because the visual output is never the same twice, offering a deep sense of "life" and responsiveness within the digital canvas.
+I am inspired by **Voronoi Tessellation**, a mathematical method of partitioning space into cells based on distance to specific seed points. This creates a striking, organic aesthetic that mirrors structures found in nature, such as leaf veins or cell membranes. For my interactive project, I want to use the user's cursor as a dynamic seed point that "re-carves" the geometry of the canvas in real-time. This technique is beneficial because it moves beyond standard grid layouts, offering a high-level architectural complexity that is both mathematically rigorous and visually mesmerizing for an interactive audience.
 
 ---
 
 ### 📸 Visual References
 
-**Figure 1 – Flocking Simulation – Complex emergent patterns from simple agents**
+**Figure 1 – Voronoi Diagram – The mathematical division of space into organic cells**
 
-![Boids Simulation](https://upload.wikimedia.org/wikipedia/commons/3/3b/Boids_Alignment_Behavior.gif)
+![Voronoi Diagram Structure](https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Euclidean_Voronoi_diagram.svg/1024px-Euclidean_Voronoi_diagram.svg.png)
 
-*Source: Wikimedia Commons – Visualization of Alignment behavior in a collective system.*
+*Source: Wikimedia Commons – Standard Euclidean Voronoi visualization.*
 
-**Figure 2 – Generative Swarm Art – Using agent trails to create abstract "light paintings"**
+**Figure 2 – Biomorphic Architecture – Real-world application of Voronoi patterns in design**
 
-![Swarm Intelligence Art](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Boids_Cohesion_Behavior.gif/640px-Boids_Cohesion_Behavior.gif)
+![Voronoi Architecture](https://images.adsttc.com/media/images/5013/f73e/28ba/0d44/9200/0175/large_jpg/stringio.jpg?1414440939)
 
-*Source: Wikimedia Commons – Visualization of Cohesion behavior and flocking density.*
+*Source: ArchDaily – Voronoi-based structural pavilion design.*
 
-**Figure 3 – Interactive Agent Trails – Particles leaving paths to create complex textures**
+**Figure 3 – Generative Mesh – High-fidelity geometric abstraction using Voronoi logic**
 
-![Particle Trails](https://upload.wikimedia.org/wikipedia/commons/a/af/Flocking_boids.gif)
+![Voronoi Mesh Art](https://raw.githubusercontent.com/fogleman/voronoi/master/examples/output.png)
 
-*Source: Wikimedia Commons – Full 2D Boids simulation in motion.*
+*Source: Michael Fogleman – Computational geometry study of Voronoi meshes.*
 
 ---
 
 ## Part 2: Coding Technique Exploration
 
-### 🧠 Vector Math & Autonomous Agents
+### 📐 Fortune’s Algorithm & Delaunay Triangulation
 
-**Technique:** Implementing a **Class-based system** in p5.js where each "Boid" object possesses its own `PVector` for position, velocity, and acceleration.
+**Technique:** Implementing a **Delaunay Triangulation** as a dual-graph to generate the Voronoi cells, using the `d3-delaunay` library or native p5.js vertex manipulation.
 
 **Description (≤100 words):**
 
-The core coding technique relies on **Vector Math** and object-oriented programming. Each frame, every agent calculates its distance from every other agent to apply steering forces. This is a high-level coding challenge because it requires optimizing loops and understanding force accumulation (`applyForce`). By integrating the `p5.Vector` library, I can calculate a "seek" behavior toward the `mouseX` and `mouseY` coordinates. This turns a mathematical simulation into a highly sensitive interactive instrument, where the user directly manipulates the velocity and flow of a virtual living system.
+The core coding challenge lies in the real-time calculation of cell boundaries. By treating the `mouseX` and `mouseY` coordinates as an active "site" in a Delaunay Triangulation, the program must recalculate the circumcenters of triangles to find the Voronoi vertices. This requires efficient array handling and geometric logic. In p5.js, I will use `beginShape()` and `vertex()` to render these cells. This allows for powerful interaction: as the user moves their mouse, the entire "ecosystem" of cells shifts and vibrates, creating a responsive digital fabric that feels alive and physically grounded.
 
 ---
 
 ### 📸 Coding Technique Screenshot
 
-**Figure 4 – p5.js Vector logic for flocking behavior**
+**Figure 4 – p5.js implementation of interactive Voronoi cells**
 
-![p5.js Boids Code Screenshot](https://happycoding.io/tutorials/p5js/images/boids-1.png)
+![p5.js Voronoi Code](https://openprocessing.org/sketch/519548/screenshot)
 
-*Source: Happy Coding – "Boids in p5.js", showing the particle interaction logic.*
+*Source: OpenProcessing – "Interactive Voronoi" by Gorilla Sun, demonstrating real-time cell updates.*
 
 ---
 
 ### 🔗 Example Implementation
 
-- **Live Example & Code:** [Boids: Flocking Simulation by Daniel Shiffman – Interactive p5.js Sketch](https://editor.p5js.org/codingtrain/sketches/ry4XZ877-)
-- **Technical Tutorial:** [The Coding Train – Coding Challenge #124: Flocking Simulation](https://thecodingtrain.com/challenges/124-flocking-simulation)
-- **Original Research:** [Craig Reynolds – Steering Behaviors for Autonomous Characters](http://www.red3d.com/cwr/steer/)
-- **Documentation:** [p5.js Official Reference - Vector Class](https://p5js.org/reference/p5/p5.Vector)
+- **Live Example & Code:** [Interactive Voronoi on p5.js Web Editor – Mouse interaction dynamically reshapes the grid](https://editor.p5js.org/p5js-examples/sketches/Math__Voronoi_Diagram)
+- **Technical Tutorial:** [The Coding Train – Understanding Delaunay and Voronoi Algorithms](https://thecodingtrain.com/challenges/interactive-geometry)
+- **Documentation:** [D3-Delaunay Documentation – High-performance spatial partitioning for JavaScript](https://github.com/d3/d3-delaunay)
+- **Advanced Code Reference:** [Voronoi Stippling and Centroidal Maps in p5.js](https://openprocessing.org/sketch/1041004)
 
 ---
 *Quiz 8 – [Kaylin] – [mzha0737]*
