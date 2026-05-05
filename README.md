@@ -28,7 +28,7 @@ I am inspired by the reactive fluid motion and monochrome tonal density seen in 
 
 **Figure 3 – Computational ink wash painting**
 
-![Computational_ink_wash_painting](images/Computational ink wash painting.png)
+![Computational_ink_wash_painting](https://github.com/Kaylinzzz/mzha0737_9103_tut1/blob/main/images/Computational_ink_wash_painting.png?raw=true)
 
 *Source: Yang Yongliang Studio – Yang Yongliang Hound, 2021 giclee print on fine art.*
 ---
