@@ -32,6 +32,7 @@ I am inspired by the reactive fluid motion and monochrome tonal density seen in 
 ![Computational_ink_wash_painting](https://github.com/Kaylinzzz/mzha0737_9103_tut1/blob/main/images/Computational_ink_wash_painting.png?raw=true)
 
 *Source: ChipGAN: A Generative Adversarial Network for Chinese Ink Wash Painting Style Transfer.*
+
 ---
 
 ## Part 2: Coding Technique Exploration
