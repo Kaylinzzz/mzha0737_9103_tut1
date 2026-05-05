@@ -13,23 +13,17 @@ I want to incorporate Pollock's **dynamic fluid distribution**, specifically the
 
 ### 📸 Visual References
 
-**Figure 1 – *Autumn Rhythm (Number 30)* – Study of complex layered patterns**
+**Figure 1 – *Autumn Rhythm (Number 30)* – Original Masterpiece Study**
 
-![Autumn Rhythm by Pollock](https://images.unsplash.com/photo-1541963463532-d68292c34b19?q=80&w=1200&auto=format&fit=crop)
+![Autumn Rhythm by Pollock](https://upload.wikimedia.org/wikipedia/en/a/a5/Jackson_Pollock%2C_Autumn_Rhythm_%28Number_30%29%2C_1950.jpg)
 
-*Source: Digital study of Jackson Pollock's layered action painting style.*
+*Source: The Metropolitan Museum of Art – Jackson Pollock (1950).*
 
 **Figure 2 – Digital Drip Representation – Abstracting physical painting into code**
 
-![Drip Simulation](https://images.unsplash.com/photo-1549490349-8643362247b5?q=80&w=1000&auto=format&fit=crop)
+![Drip Simulation](https://github.com/processing/p5.js-website/raw/main/src/assets/learn/interactivity/mouse-1.png)
 
-*Source: Exploring digital interpretations of artistic movement and fluid textures.*
-
-**Figure 3 – Splatter Logic – Reimagining chaotic lines as interactive partitions**
-
-![Splatter Detail](https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?q=80&w=1000&auto=format&fit=crop)
-
-*Source: Visualizing how randomized particle dispersion can reinterpret classical artwork.*
+*Source: Exploring digital interpretations of artistic movement using p5.js logic.*
 
 ---
 
@@ -46,21 +40,21 @@ To implement the "Action Painting" style, I will use a **Velocity-Responsive Par
 
 ### 📸 Coding Technique Screenshot
 
-**Figure 4 – p5.js implementation of dynamic particle distribution and stroke control**
+**Figure 4 – p5.js implementation of dynamic interactive logic**
 
-![Dynamic Particle Code](https://p5js.org/assets/img/get-started/first-sketch.png)
+![Dynamic Particle Code](https://github.com/processing/p5.js-website/raw/main/src/assets/img/get-started/first-sketch.png)
 
-*Source: p5.js Official Foundation – Visualizing real-time coordinate and drawing logic.*
+*Source: p5.js Official GitHub – Visualizing real-time coordinate and drawing logic.*
 
 ---
 
 ### 🔗 Example Implementation
 
-- **Live Example & Code:** [Interactive Drip Painting - p5.js Pollock Simulation](https://openprocessing.org/sketch/401499)
-- **Technical Tutorial:** [The Coding Train – Painting with Particles and Velocity](https://thecodingtrain.com/tutorials/p5js-random-painting)
+- **Live Example & Code:** [Jackson Pollock Drip Art - Professional p5.js Simulation](https://openprocessing.org/sketch/837834)
+- **Technical Tutorial:** [The Coding Train – Coding Challenge #155: Drawing with Particles](https://www.youtube.com/watch?v=UcdigVaIYAk) (Daniel Shiffman 讲解如何利用粒子系统进行艺术创作)
 - **Official Documentation:** [p5.js Reference for pmouseX/Y and dist()](https://p5js.org/reference/p5/pmouseX/)
 - **GitHub Reference:** [Advanced Physics Brushes for Creative Coding](https://github.com/shiffman/The-Nature-of-Code-Examples-p5.js)
-- **CodePen Inspiration:** [Dynamic Splatter Engine by p5.js Community](https://codepen.io/p5js/pen/OPXvRw)
+- **Community Resource:** [p5.js Interactivity Guide - Tracking Mouse Speed](https://p5js.org/learn/interactivity.html)
 
 ---
 
