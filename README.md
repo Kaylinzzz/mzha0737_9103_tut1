@@ -24,8 +24,13 @@ I am inspired by the reactive fluid motion and monochrome tonal density seen in 
 
 ![Digital landscape scroll paintings](https://assets.isu.pub/document-structure/210503014611-34d7ac1c4403dc4b0af76d39416f16bc/v1/d8c1b0e4f196915531365d2ff275f814.jpg?width=1440&quality=85%2C50)
 
-*Source: Yang Yongliang Studio – Yang Yongliang Hound, 2021 giclee print on fine art.*
+*Source: ChipGAN: A Generative Adversarial Network for Chinese Ink Wash Painting Style Transfer.*
 
+**Figure 3 – Computational ink wash painting**
+
+![Computational ink wash painting](images/Computational ink wash painting.png)
+
+*Source: Yang Yongliang Studio – Yang Yongliang Hound, 2021 giclee print on fine art.*
 ---
 
 ## Part 2: Coding Technique Exploration
@@ -34,7 +39,7 @@ I am inspired by the reactive fluid motion and monochrome tonal density seen in 
 
 **Technique:** Implementing a **JavaScript-based Navier-Stokes solver** within the **p5.js framework** to manage real-time fluid advection and density diffusion.
 
-**Description (≤100 words):**
+**Description:**
 
 This coding technique utilizes **JavaScript arrays** to track velocity and density across a grid, enabling high-performance fluid simulation directly in the web browser. By leveraging the **p5.js library**, the system captures real-time cursor coordinates and injects physical momentum into the velocity field. This approach is highly beneficial for interactive web media, as it allows for complex mathematical calculations to be rendered seamlessly. It ensures that the "ink wash" aesthetic is not a pre-rendered video but a live, responsive environment, perfectly aligning with the technical requirements for advanced creative coding.
 
@@ -42,7 +47,7 @@ This coding technique utilizes **JavaScript arrays** to track velocity and densi
 
 ### Coding Technique Image
 
-**Figure 3 – Real-time fluid field simulation logic in a JavaScript environment**
+**Figure 4 – Real-time fluid field simulation logic in a JavaScript environment**
 
 ![Fluid Simulation Code Screenshot](https://raw.githubusercontent.com/PavelDoGreat/WebGL-Fluid-Simulation/refs/heads/master/screenshot.jpg)
 
