@@ -7,7 +7,7 @@
 **Inspiration Source:** *Autumn Rhythm (Number 30)* by Jackson Pollock (1950), emphasizing the "Drip Technique."
 
 **Description (≤100 words):**
-I want to incorporate Pollock's **dynamic fluid distribution**, specifically the spontaneous "splatter" effect created by his drip technique. Instead of a static imitation, I aim to represent the fluid energy of his layered lines through interactive code. This technique is beneficial because it allows me to extend the artwork’s structural randomness into a responsive system where user movement dictates the paint's dispersion. By mapping mouse speed to splat density, I can capture the essence of Pollock's gestural style while fulfilling the assignment's requirement to add creative interactive mechanics.
+I want to incorporate Pollock's **dynamic fluid distribution**, specifically the spontaneous "splatter" effect created by his drip technique[cite: 2]. Instead of a static imitation, I aim to represent the fluid energy of his layered lines through interactive code[cite: 2]. This technique is beneficial because it allows me to extend the artwork’s structural randomness into a responsive system where user movement dictates the paint's dispersion[cite: 2]. By mapping mouse speed to splat density, I can capture the essence of Pollock's gestural style while fulfilling the assignment's requirement to add creative interactive mechanics[cite: 2].
 
 ---
 
@@ -37,10 +37,10 @@ I want to incorporate Pollock's **dynamic fluid distribution**, specifically the
 
 ### 🎨 p5.js Velocity-Responsive Particle Systems
 
-**Technique:** Using the `dist()` function combined with `pmouseX` and `pmouseY` to calculate user interaction velocity, which dynamically controls the stroke weight and particle dispersion.
+**Technique:** Using the `dist()` function combined with `pmouseX` and `pmouseY` to calculate user interaction velocity, which dynamically controls the stroke weight and particle dispersion[cite: 1, 2].
 
 **Description (≤100 words):**
-To implement the "Action Painting" style, I will use a **Velocity-Responsive Particle System**. By calculating the distance between the current and previous mouse positions, the code maps interaction speed to the visual properties of digital paint. Fast movements trigger a widespread "splatter" of particles, while slower movements create thick, continuous lines. This technique is beneficial because it moves beyond static drawing, using real-time physics-based logic to create an engaging interactive experience that honors Pollock's gestural legacy.
+To implement the "Action Painting" style, I will use a **Velocity-Responsive Particle System**[cite: 2]. By calculating the distance between the current and previous mouse positions, the code maps interaction speed to the visual properties of digital paint[cite: 2]. Fast movements trigger a widespread "splatter" of particles, while slower movements create thick, continuous lines[cite: 1]. This technique is beneficial because it moves beyond static drawing, using real-time physics-based logic to create an engaging interactive experience that honors Pollock's gestural legacy[cite: 2].
 
 ---
 
