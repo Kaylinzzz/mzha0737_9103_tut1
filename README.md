@@ -8,7 +8,7 @@
 
 **Description:**
 
-I am inspired by the application of **Computational Fluid Dynamics (CFD)** to simulate the behavior of smoke and ink. This technique models the natural diffusion, collision, and swirling of particles within a medium. I want to incorporate a "Digital Ink" aesthetic into my interactive project: starting with a minimalist white canvas, the user’s cursor will act as a brush that injects deep black "ink" which swirls and dissipates like real smoke. This technique is beneficial as it combines traditional artistic sensibility with modern algorithmic randomness, creating a deeply immersive and meditative interactive experience.
+I am inspired by the reactive fluid motion and monochrome tonal density seen in teamLab and Yang Yongliang’s works. This technique models the natural diffusion, collision, and swirling of particles within a medium. I aim to incorporate a digital ink aesthetic into my interactive project: starting with a minimalist white canvas, the user’s cursor acts as a brush that injects deep black “ink,” which swirls and dissipates like real smoke. This technique is beneficial because it combines traditional artistic sensibility with modern algorithmic dynamics, creating a deeply immersive and meditative interactive experience.
 
 ---
 
@@ -20,47 +20,41 @@ I am inspired by the application of **Computational Fluid Dynamics (CFD)** to si
 
 *Source: teamLab Official – "Continuous Life and Death at the Now of Eternity"*
 
-**Figure 2 – Digital Ink Diffusion – Simulating the delicate texture of ink spreading on paper**
+**Figure 2 – The digital landscape scroll paintings by artist Yang Yongliang**
 
-![Digital Ink Wash Texture](https://raw.githubusercontent.com/PavelDoGreat/Fluid-Simulation/master/screenshots/fluid_2.png)
+![Digital landscape scroll paintings](https://assets.isu.pub/document-structure/210503014611-34d7ac1c4403dc4b0af76d39416f16bc/v1/d8c1b0e4f196915531365d2ff275f814.jpg?width=1440&quality=85%2C50)
 
-*Source: Fluid Simulation Study – Demonstrating density and velocity fields in a digital space.*
-
-**Figure 3 – Abstract Smoke Patterns – Visualizing the turbulence and organic shapes of fluid motion**
-
-![Smoke Fluid Patterns](https://raw.githubusercontent.com/PavelDoGreat/Fluid-Simulation/master/screenshots/fluid_3.png)
-
-*Source: Generative Art Archive – High-contrast fluid dynamics visualization.*
+*Source: Yang Yongliang Studio – Yang Yongliang Hound, 2021 giclee print on fine art.*
 
 ---
 
 ## Part 2: Coding Technique Exploration
 
-### 🌫️ Navier-Stokes Equations & Grid-Based Fluid Solvers
+### JavaScript-Driven Fluid Dynamics (p5.js)
 
-**Technique:** Implementing a simplified **Navier-Stokes solver** in p5.js, specifically utilizing a grid-based system to calculate velocity fields, pressure, and advection.
+**Technique:** Implementing a **JavaScript-based Navier-Stokes solver** within the **p5.js framework** to manage real-time fluid advection and density diffusion.
 
 **Description (≤100 words):**
 
-To achieve this effect, the code must manage a "Velocity Field" where every pixel or cell stores a vector representing flow direction. I will utilize Jos Stam’s stable fluid algorithm to handle the math of fluid viscosity and mass conservation. By mapping the `mouseX` and `mouseY` speed to the "force" injected into the grid, the user can physically "stir" the digital ink. This is a significant technical challenge involving nested loops and mathematical convergence, providing a sophisticated interaction model that feels far more reactive and "alive" than basic particle systems.
+This coding technique utilizes **JavaScript arrays** to track velocity and density across a grid, enabling high-performance fluid simulation directly in the web browser. By leveraging the **p5.js library**, the system captures real-time cursor coordinates and injects physical momentum into the velocity field. This approach is highly beneficial for interactive web media, as it allows for complex mathematical calculations to be rendered seamlessly. It ensures that the "ink wash" aesthetic is not a pre-rendered video but a live, responsive environment, perfectly aligning with the technical requirements for advanced creative coding.
 
 ---
 
-### 📸 Coding Technique Screenshot
+### Coding Technique Image
 
-**Figure 4 – Real-time fluid field simulation logic in a JavaScript environment**
+**Figure 3 – Real-time fluid field simulation logic in a JavaScript environment**
 
-![Fluid Simulation Code Screenshot](https://raw.githubusercontent.com/PavelDoGreat/Fluid-Simulation/master/screenshots/fluid.png)
+![Fluid Simulation Code Screenshot](https://raw.githubusercontent.com/PavelDoGreat/WebGL-Fluid-Simulation/refs/heads/master/screenshot.jpg)
 
 *Source: GitHub – "Fluid Simulation" by PavelDoGreat, demonstrating the underlying interactive solver.*
 
 ---
 
-### 🔗 Example Implementation
+### Example Implementation
 
-- **Live Example & Code:** [Web-based Interactive Fluid Simulation – High-fidelity real-time fluid interaction](https://paveldogreat.github.io/Fluid-Simulation/)
+- **Live Example & Code:** [Web-based Interactive Fluid Simulation – High-fidelity real-time fluid interaction](https://paveldogreat.github.io/WebGL-Fluid-Simulation/)
 - **Technical Tutorial:** [The Coding Train – Coding Challenge #132: Fluid Simulation in p5.js](https://thecodingtrain.com/challenges/132-fluid-simulation)
-- **Scientific Reference:** [Jos Stam – Real-Time Fluid Dynamics for Games (Original Paper)](https://www.dgp.toronto.edu/public_user/stam/reality/Research/pdf/GDC03.pdf)
+- **GitHub Example Code:** [Fluid-JS: WebGL Fluid Simulation](https://github.com/malik-tillman/Fluid-JS.git)
 - **Documentation:** [p5.js Official Reference - Using beginShape() for flow visualization](https://p5js.org/reference/p5/beginShape/)
 
 ---
