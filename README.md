@@ -46,7 +46,7 @@ The noise() function in p5.js generates smooth, naturally flowing values — unl
 
 ---
 
-### Coding Technique Screenshot
+### Coding Technique Image
 
 **Figure 4 – p5.js Flow Field Code in Action**
 
