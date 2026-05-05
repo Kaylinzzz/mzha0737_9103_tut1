@@ -15,15 +15,21 @@ I want to incorporate Pollock's **dynamic fluid distribution**, specifically the
 
 **Figure 1 – *Autumn Rhythm (Number 30)* – Original Masterpiece Study**
 
-![Autumn Rhythm by Pollock](https://upload.wikimedia.org/wikipedia/en/a/a5/Jackson_Pollock%2C_Autumn_Rhythm_%28Number_30%29%2C_1950.jpg)
+![Autumn Rhythm by Pollock](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Jackson_Pollock%2C_Autumn_Rhythm_%28Number_30%29%2C_1950.jpg/1280px-Jackson_Pollock%2C_Autumn_Rhythm_%28Number_30%29%2C_1950.jpg)
 
-*Source: The Metropolitan Museum of Art – Jackson Pollock (1950).*
+*Source: Metropolitan Museum of Art via Wikimedia Commons – Jackson Pollock (1950).*
 
 **Figure 2 – Digital Drip Representation – Abstracting physical painting into code**
 
-![Drip Simulation](https://github.com/processing/p5.js-website/raw/main/src/assets/learn/interactivity/mouse-1.png)
+![Drip Simulation](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Pollock_inspired_drip_painting.jpg/800px-Pollock_inspired_drip_painting.jpg)
 
-*Source: Exploring digital interpretations of artistic movement using p5.js logic.*
+*Source: Study of digital fluid dynamics and randomized artistic textures.*
+
+**Figure 3 – Splatter Logic – Reimagining chaotic lines as interactive partitions**
+
+![Splatter Detail](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Action_painting_detail.jpg/800px-Action_painting_detail.jpg)
+
+*Source: Visualizing how randomized particle dispersion can reinterpret classical artwork.*
 
 ---
 
@@ -42,7 +48,7 @@ To implement the "Action Painting" style, I will use a **Velocity-Responsive Par
 
 **Figure 4 – p5.js implementation of dynamic interactive logic**
 
-![Dynamic Particle Code](https://github.com/processing/p5.js-website/raw/main/src/assets/img/get-started/first-sketch.png)
+![Dynamic Particle Code](https://raw.githubusercontent.com/processing/p5.js-website/main/src/assets/img/get-started/first-sketch.png)
 
 *Source: p5.js Official GitHub – Visualizing real-time coordinate and drawing logic.*
 
@@ -51,7 +57,7 @@ To implement the "Action Painting" style, I will use a **Velocity-Responsive Par
 ### 🔗 Example Implementation
 
 - **Live Example & Code:** [Jackson Pollock Drip Art - Professional p5.js Simulation](https://openprocessing.org/sketch/837834)
-- **Technical Tutorial:** [The Coding Train – Coding Challenge #155: Drawing with Particles](https://www.youtube.com/watch?v=UcdigVaIYAk) (Daniel Shiffman 讲解如何利用粒子系统进行艺术创作)
+- **Technical Tutorial:** [The Coding Train – Coding Challenge #155: Drawing with Particles](https://www.youtube.com/watch?v=UcdigVaIYAk)
 - **Official Documentation:** [p5.js Reference for pmouseX/Y and dist()](https://p5js.org/reference/p5/pmouseX/)
 - **GitHub Reference:** [Advanced Physics Brushes for Creative Coding](https://github.com/shiffman/The-Nature-of-Code-Examples-p5.js)
 - **Community Resource:** [p5.js Interactivity Guide - Tracking Mouse Speed](https://p5js.org/learn/interactivity.html)
