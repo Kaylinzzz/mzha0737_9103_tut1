@@ -2,67 +2,66 @@
 
 ## Part 1: Imaging Technique Inspiration
 
-### ⚡ Glitch Art & Kinetic Pixel Sorting
+### 🦢 Emergent Collective Motion – Boids Algorithm
 
-**Inspiration Source:** The experimental digital works of **Kim Asendorf** (creator of the first pixel sorting algorithm) and the interactive installations by **Refik Anadol**.
+**Inspiration Source:** *Boids* by Craig Reynolds (1986) and the immersive digital installations of **Universal Everything**.
 
 **Description (≤100 words):**
 
-I am inspired by **Pixel Sorting**, a glitch art technique that reorders the pixels in an image based on specific attributes like brightness, hue, or saturation. Unlike static filters, I want to implement this as a kinetic, interactive process. The visual "melting" effect creates a haunting, ethereal transition between order and chaos. In my project, user movement will act as a "digital brush," dragging and sorting pixels in real-time. This technique is beneficial because it utilizes p5.js’s ability to manipulate the pixel array directly, creating high-level artistic results that feel sophisticated and contemporary.
+I am inspired by **Agent-Based Flocking (Boids)**, a technique that simulates the collective behavior of birds or fish. By applying three simple rules—Separation, Alignment, and Cohesion—thousands of individual "agents" create a fluid, organic mass that moves with startling lifelike complexity. For my interactive project, I want to treat the user's cursor as a "predator" or an "attractor," forcing the flock to scatter or coalesce dynamically. This technique is artistically superior to static animation because the visual output is never the same twice, offering a deep sense of "life" and responsiveness within the digital canvas.
 
 ---
 
 ### 📸 Visual References
 
-**Figure 1 – Classic Pixel Sorting – A landscape being "melted" via brightness-based sorting**
+**Figure 1 – Flocking Simulation – Complex emergent patterns from simple agents**
 
-![Pixel Sorting Art](https://raw.githubusercontent.com/kimasendorf/ASDFPixelSort/master/example.png)
+![Boids Simulation](https://upload.wikimedia.org/wikipedia/commons/3/3b/Boids_Alignment_Behavior.gif)
 
-*Source: Kim Asendorf – ASDF Pixel Sort, the foundational aesthetic for digital glitch art.*
+*Source: Wikimedia Commons – Visualization of Alignment behavior in a collective system.*
 
-**Figure 2 – Interactive Glitch – Real-time distortion of portraiture using pixel manipulation**
+**Figure 2 – Generative Swarm Art – Using agent trails to create abstract "light paintings"**
 
-![Interactive Glitch](https://www.seditionart.com/media/00/08/94/r-kim-asendorf-the-original-pixel-sort-1.jpg)
+![Swarm Intelligence Art](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Boids_Cohesion_Behavior.gif/640px-Boids_Cohesion_Behavior.gif)
 
-*Source: Sedition Art – "The Original Pixel Sort" by Kim Asendorf.*
+*Source: Wikimedia Commons – Visualization of Cohesion behavior and flocking density.*
 
-**Figure 3 – Kinetic Abstraction – Sorting applied to fluid shapes to create a sense of motion**
+**Figure 3 – Interactive Agent Trails – Particles leaving paths to create complex textures**
 
-![Kinetic Sorting](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/40960555355603.598160088812c.gif)
+![Particle Trails](https://upload.wikimedia.org/wikipedia/commons/a/af/Flocking_boids.gif)
 
-*Source: Behance – Generative glitch studies exploring color and drag.*
+*Source: Wikimedia Commons – Full 2D Boids simulation in motion.*
 
 ---
 
 ## Part 2: Coding Technique Exploration
 
-### 💻 Image Pixel Array Manipulation
+### 🧠 Vector Math & Autonomous Agents
 
-**Technique:** Accessing and modifying the **`pixels[]` array** in p5.js. By loading an image or webcam feed into a buffer, the code iterates through rows or columns and applies a **sorting algorithm** (like `sort()`) to pixel values based on their `brightness()`.
+**Technique:** Implementing a **Class-based system** in p5.js where each "Boid" object possesses its own `PVector` for position, velocity, and acceleration.
 
 **Description (≤100 words):**
 
-The core coding technique involves manipulating the low-level pixel data of the canvas. By calling `loadPixels()`, we gain access to a 1D array representing every RGBA value on screen. I will use a conditional sorting logic: if a pixel's brightness exceeds a certain threshold, the code will swap its position with neighboring pixels. By linking the "sorting threshold" or "sorting direction" to the `mouseX` and `mouseY` coordinates, the user can interactively "smear" the image, creating a responsive, high-fidelity visual experience that bridges the gap between photography and generative abstraction.
+The core coding technique relies on **Vector Math** and object-oriented programming. Each frame, every agent calculates its distance from every other agent to apply steering forces. This is a high-level coding challenge because it requires optimizing loops and understanding force accumulation (`applyForce`). By integrating the `p5.Vector` library, I can calculate a "seek" behavior toward the `mouseX` and `mouseY` coordinates. This turns a mathematical simulation into a highly sensitive interactive instrument, where the user directly manipulates the velocity and flow of a virtual living system.
 
 ---
 
 ### 📸 Coding Technique Screenshot
 
-**Figure 4 – Pixel Sorting algorithm logic visualized in p5.js**
+**Figure 4 – p5.js Vector logic for flocking behavior**
 
-![Pixel Sorting Code Screenshot](https://happycoding.io/tutorials/p5js/images/pixel-sorting-4.png)
+![p5.js Boids Code Screenshot](https://happycoding.io/tutorials/p5js/images/boids-1.png)
 
-*Source: Happy Coding – "Pixel Sorting in p5.js", demonstrating the transition from raw image to sorted pixels.*
+*Source: Happy Coding – "Boids in p5.js", showing the particle interaction logic.*
 
 ---
 
 ### 🔗 Example Implementation
 
-- **Live Example & Code:** [Interactive Pixel Sorter on p5.js Web Editor – Drag the mouse to sort pixels](https://editor.p5js.org/Kallirroi/sketches/BJx9GqS_X)
-- **Technical Tutorial:** [Happy Coding – Pixel Sorting Tutorial for p5.js](https://happycoding.io/tutorials/p5js/images/pixel-sorting)
-- **Reference Repository:** [ASDF Pixel Sort – Original Processing source code by Kim Asendorf](https://github.com/kimasendorf/ASDFPixelSort)
-- **Advanced Video Guide:** [The Coding Train – Pixel Array Manipulation and Sorting Patterns](https://thecodingtrain.com/challenges/interactive-images)
+- **Live Example & Code:** [Boids: Flocking Simulation by Daniel Shiffman – Interactive p5.js Sketch](https://editor.p5js.org/codingtrain/sketches/ry4XZ877-)
+- **Technical Tutorial:** [The Coding Train – Coding Challenge #124: Flocking Simulation](https://thecodingtrain.com/challenges/124-flocking-simulation)
+- **Original Research:** [Craig Reynolds – Steering Behaviors for Autonomous Characters](http://www.red3d.com/cwr/steer/)
+- **Documentation:** [p5.js Official Reference - Vector Class](https://p5js.org/reference/p5/p5.Vector)
 
 ---
-
-*Quiz 8 – [Your Name] – [Your Student ID]*
+*Quiz 8 – [Kaylin] – [mzha0737]*
